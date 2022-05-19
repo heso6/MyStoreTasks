@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 
 public class CreateNewAccount extends ConfigurationBase {
+
     @Test
     public void shouldCreateNewAccount() {
         webDriver.get("http://146.59.32.4/index.php");
