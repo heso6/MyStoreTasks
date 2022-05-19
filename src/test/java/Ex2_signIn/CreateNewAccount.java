@@ -1,14 +1,12 @@
 package Ex2_signIn;
 
 import ConfigurationBase.ConfigurationBase;
-import net.bytebuddy.utility.RandomString;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.Random;
 
 public class CreateNewAccount extends ConfigurationBase {
     @Test
